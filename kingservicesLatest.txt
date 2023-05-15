@@ -1,0 +1,155 @@
+version: 0.3.0
+type: direct
+network: ipv4
+server: 59.110.138.30:21452
+tls: false
+endpoint: 59.110.138.30:21452
+interface:
+  name: eth0
+  id: eth0
+  index: 2
+  description: 
+  hardwareAddr: 72:22:8a:48:18:ac
+  privateIP: 185.209.162.233
+  publicIP: 185.209.162.233
+probe:
+- prefix: 31
+  srcIP: 185.209.162.232
+  dstIP: 59.110.138.30
+- prefix: 30
+  srcIP: 185.209.162.235
+  dstIP: 59.110.138.30
+- prefix: 29
+  srcIP: 185.209.162.237
+  dstIP: 59.110.138.30
+- prefix: 28
+  srcIP: 185.209.162.225
+  dstIP: 59.110.138.30
+- prefix: 27
+  srcIP: 185.209.162.249
+  dstIP: 59.110.138.30
+- prefix: 26
+  srcIP: 185.209.162.201
+  dstIP: 59.110.138.30
+- prefix: 25
+  srcIP: 185.209.162.169
+  dstIP: 59.110.138.30
+- prefix: 24
+  srcIP: 185.209.162.105
+  dstIP: 59.110.138.30
+- prefix: 23
+  srcIP: 185.209.163.233
+  dstIP: 59.110.138.30
+- prefix: 22
+  srcIP: 185.209.160.233
+  dstIP: 59.110.138.30
+- prefix: 21
+  srcIP: 185.209.166.233
+  dstIP: 59.110.138.30
+- prefix: 20
+  srcIP: 185.209.170.233
+  dstIP: 59.110.138.30
+- prefix: 19
+  srcIP: 185.209.178.233
+  dstIP: 59.110.138.30
+- prefix: 18
+  srcIP: 185.209.130.233
+  dstIP: 59.110.138.30
+- prefix: 17
+  srcIP: 185.209.226.233
+  dstIP: 59.110.138.30
+- prefix: 16
+  srcIP: 185.209.34.233
+  dstIP: 59.110.138.30
+- prefix: 15
+  srcIP: 185.208.162.233
+  dstIP: 59.110.138.30
+- prefix: 14
+  srcIP: 185.211.162.233
+  dstIP: 59.110.138.30
+- prefix: 13
+  srcIP: 185.213.162.233
+  dstIP: 59.110.138.30
+- prefix: 12
+  srcIP: 185.217.162.233
+  dstIP: 59.110.138.30
+- prefix: 11
+  srcIP: 185.193.162.233
+  dstIP: 59.110.138.30
+- prefix: 10
+  srcIP: 185.241.162.233
+  dstIP: 59.110.138.30
+- prefix: 9
+  srcIP: 185.145.162.233
+  dstIP: 59.110.138.30
+- prefix: 8
+  srcIP: 185.81.162.233
+  dstIP: 59.110.138.30
+- prefix: 7
+  srcIP: 184.209.162.233
+  dstIP: 59.110.138.30
+- prefix: 6
+  srcIP: 187.209.162.233
+  dstIP: 59.110.138.30
+- prefix: 5
+  srcIP: 189.209.162.233
+  dstIP: 59.110.138.30
+- prefix: 4
+  srcIP: 177.209.162.233
+  dstIP: 59.110.138.30
+- prefix: 3
+  srcIP: 169.209.162.233
+  dstIP: 59.110.138.30
+- prefix: 2
+  srcIP: 153.209.162.233
+  dstIP: 59.110.138.30
+- prefix: 1
+  srcIP: 249.209.162.233
+  dstIP: 59.110.138.30
+- prefix: 0
+  srcIP: 57.209.162.233
+  dstIP: 59.110.138.30
+result:
+- prefix: 31
+  srcIP: 185.209.162.232
+  natIP: 185.209.162.232
+  dstIP: 59.110.138.30
+- prefix: 30
+  srcIP: 185.209.162.235
+  natIP: 185.209.162.235
+  dstIP: 59.110.138.30
+- prefix: 29
+  srcIP: 185.209.162.237
+  natIP: 185.209.162.237
+  dstIP: 59.110.138.30
+- prefix: 28
+  srcIP: 185.209.162.225
+  natIP: 185.209.162.225
+  dstIP: 59.110.138.30
+- prefix: 27
+  srcIP: 185.209.162.249
+  natIP: 185.209.162.249
+  dstIP: 59.110.138.30
+- prefix: 26
+  srcIP: 185.209.162.201
+  natIP: 185.209.162.201
+  dstIP: 59.110.138.30
+- prefix: 25
+  srcIP: 185.209.162.169
+  natIP: 185.209.162.169
+  dstIP: 59.110.138.30
+- prefix: 24
+  srcIP: 185.209.162.105
+  natIP: 185.209.162.105
+  dstIP: 59.110.138.30
+- prefix: 23
+  srcIP: 185.209.163.233
+  natIP: 185.209.163.233
+  dstIP: 59.110.138.30
+type: direct
+network: ipv6
+server: [2408:400a:7c:4301:c2bd:8008:b428:cfca]:21452
+tls: false
+Post "http://[2408:400a:7c:4301:c2bd:8008:b428:cfca]:21452/api/validation?token=": dial tcp [2408:400a:7c:4301:c2bd:8008:b428:cfca]:21452: i/o timeout
+
+Press Enter to exit.
