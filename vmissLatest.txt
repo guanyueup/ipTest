@@ -1,0 +1,120 @@
+version: 0.3.0
+type: direct
+network: ipv4
+server: 59.110.138.30:21452
+tls: false
+endpoint: 59.110.138.30:21452
+interface:
+  name: eth0
+  id: eth0
+  index: 2
+  description: 
+  hardwareAddr: d8:d5:d8:00:09:c2
+  privateIP: 167.88.185.193
+  publicIP: 167.88.185.193
+probe:
+- prefix: 31
+  srcIP: 167.88.185.192
+  dstIP: 59.110.138.30
+- prefix: 30
+  srcIP: 167.88.185.195
+  dstIP: 59.110.138.30
+- prefix: 29
+  srcIP: 167.88.185.197
+  dstIP: 59.110.138.30
+- prefix: 28
+  srcIP: 167.88.185.201
+  dstIP: 59.110.138.30
+- prefix: 27
+  srcIP: 167.88.185.209
+  dstIP: 59.110.138.30
+- prefix: 26
+  srcIP: 167.88.185.225
+  dstIP: 59.110.138.30
+- prefix: 25
+  srcIP: 167.88.185.129
+  dstIP: 59.110.138.30
+- prefix: 24
+  srcIP: 167.88.185.65
+  dstIP: 59.110.138.30
+- prefix: 23
+  srcIP: 167.88.184.193
+  dstIP: 59.110.138.30
+- prefix: 22
+  srcIP: 167.88.187.193
+  dstIP: 59.110.138.30
+- prefix: 21
+  srcIP: 167.88.189.193
+  dstIP: 59.110.138.30
+- prefix: 20
+  srcIP: 167.88.177.193
+  dstIP: 59.110.138.30
+- prefix: 19
+  srcIP: 167.88.169.193
+  dstIP: 59.110.138.30
+- prefix: 18
+  srcIP: 167.88.153.193
+  dstIP: 59.110.138.30
+- prefix: 17
+  srcIP: 167.88.249.193
+  dstIP: 59.110.138.30
+- prefix: 16
+  srcIP: 167.88.57.193
+  dstIP: 59.110.138.30
+- prefix: 15
+  srcIP: 167.89.185.193
+  dstIP: 59.110.138.30
+- prefix: 14
+  srcIP: 167.90.185.193
+  dstIP: 59.110.138.30
+- prefix: 13
+  srcIP: 167.92.185.193
+  dstIP: 59.110.138.30
+- prefix: 12
+  srcIP: 167.80.185.193
+  dstIP: 59.110.138.30
+- prefix: 11
+  srcIP: 167.72.185.193
+  dstIP: 59.110.138.30
+- prefix: 10
+  srcIP: 167.120.185.193
+  dstIP: 59.110.138.30
+- prefix: 9
+  srcIP: 167.24.185.193
+  dstIP: 59.110.138.30
+- prefix: 8
+  srcIP: 167.216.185.193
+  dstIP: 59.110.138.30
+- prefix: 7
+  srcIP: 166.88.185.193
+  dstIP: 59.110.138.30
+- prefix: 6
+  srcIP: 165.88.185.193
+  dstIP: 59.110.138.30
+- prefix: 5
+  srcIP: 163.88.185.193
+  dstIP: 59.110.138.30
+- prefix: 4
+  srcIP: 175.88.185.193
+  dstIP: 59.110.138.30
+- prefix: 3
+  srcIP: 183.88.185.193
+  dstIP: 59.110.138.30
+- prefix: 2
+  srcIP: 135.88.185.193
+  dstIP: 59.110.138.30
+- prefix: 1
+  srcIP: 231.88.185.193
+  dstIP: 59.110.138.30
+- prefix: 0
+  srcIP: 39.88.185.193
+  dstIP: 59.110.138.30
+result:
+- found: none
+type: direct
+network: ipv6
+server: [2408:400a:7c:4301:c2bd:8008:b428:cfca]:21452
+tls: false
+Post "http://[2408:400a:7c:4301:c2bd:8008:b428:cfca]:21452/api/validation?token=": dial tcp [2408:400a:7c:4301:c2bd:8008:b428:cfca]:21452: connect: network is unreachable
+
+Press Enter to exit.
